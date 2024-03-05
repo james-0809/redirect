@@ -1,0 +1,22 @@
+
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Redirection</title>
+    <script>
+        window.onload = function() {
+            // Check if the URL contains "000webhost"
+            if (window.location.href.includes("000webhost")) {
+                // Redirect to www.bing.com
+                window.location.href = "https://www.bing.com";
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>This page redirects URLs containing "000webhost" to <a href="https://www.bing.com">www.bing.com</a>.</p>
+</body>
+</html>
